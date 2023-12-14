@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+canvas {
+  border: 1px solid #59320a;
+}
+#truthTable {
+  margin-top: 20px;
+  color: #994900;
+}
+table {
+  background-color: inherit;
+  width: auto;
+  margin: 0 auto;
+}
+table,
+th,
+td {
+  border: 1px solid inherit;
+  border-collapse: collapse;
+  text-align: center;
+}
+th,
+td {
+  padding: 8px;
+}
+
+h1 span {
+  color: #994900;
+  position: relative;
+  font-size: 2rem;
+  display: inline-block;
+}
+
+body {
+  background-color: #f2e3d6;
+  background-image: url(kmr.gif);
+  background-size: auto;
+}
+
+h1 {
+  color: #d17200; /* Update color to aquamarine */
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: left;
+  display: inline-block;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+  background-color: inherit; /* Update color to aquamarine */
+}
+
+.btn {
+  color: #d17200; /* Update color to aquamarine */
+  background-color: #f2e3d6; /* Update background color to light brown */
+  border-color: #d17200; /* Update border color to aquamarine */
+}
+
+button:hover {
+  background-color: #d17200 !important;
+  color: white !important;
+}
+
+#truthTable {
+  margin-top: 20px;
+  background-color: #f2e3d6; /* Set background color to match the overall background */
+  padding: 10px; /* Add padding for better visibility */
+  border-radius: 10px; /* Add border-radius for a rounded look */
+  overflow: hidden; /* Hide overflow content within the rounded border */
+}
+
+#truthTable table {
+  width: auto;
+  margin: 0 auto;
+  background-color: #f2e3d6; /* Set background color to match the overall background */
+  border-collapse: collapse;
+}
+
+#truthTable th,
+#truthTable td {
+  border: 1px solid #59320a;
+  padding: 8px;
+  background-color: #f2e3d6; /* Set background color to match the overall background */
+}
